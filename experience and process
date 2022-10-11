@@ -1,0 +1,11 @@
+一 反向输出输入的字符：
+int main()
+{
+	int n=0;
+	scanf("%d",&n);
+	while(n!=0)
+	{
+		printf("%d",n%10);
+		n=n/10;
+	}
+	return 0;
