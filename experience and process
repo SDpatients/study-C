@@ -9,9 +9,9 @@ int main()
 		printf("%d",n%10);
 		n=n/10;
 	}
-	return 0;
-13
-==是判断是否相等
+	返回0；
+10-13
+==是确定你
 = 是赋值
 ！= 非值
 
@@ -19,4 +19,14 @@ int main()
 Switch  整形语句  不能用float等
 case 同理，整形常量（不是变量）表达式
 default  默认
-default 与 case 无顺序要求	
+default 与 case 无顺序要求
+
+
+10-14
+Switch  整形语句  不能用float等
+For 循环会先完成命令再进行调整
+While循环会先按流程走下去，按先后顺序
+
+
+For 循环    什么什么才可以运行
+while 循环        是当什么什么就不能运行
