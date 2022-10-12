@@ -1,4 +1,5 @@
-一 反向输出输入的字符：
+22-10-12
+反向输出输入的字符：
 int main()
 {
 	int n=0;
@@ -9,3 +10,12 @@ int main()
 		n=n/10;
 	}
 	return 0;
+13
+==是判断是否相等
+= 是赋值
+
+一：
+Switch  整形语句  不能用float等
+case 同理，整形常量（不是变量）表达式
+default  默认
+default 与 case 无顺序要求	
