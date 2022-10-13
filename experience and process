@@ -11,15 +11,31 @@ int main()
 	}
 	返回0；
 10-12
-==是确定你
+==是确定是否相等
 = 是赋值
 ！= 非值
 
 一：
-Switch  整形语句  不能用float等
+Switch语句  整形语句  不能用float等
 case 同理，整形常量（不是变量）表达式
 default  默认
 default 与 case 无顺序要求
+例：    
+        int a=4;
+        switch (a){
+            case 1:
+                System.out.println("1");
+                break;
+            case 2:
+                System.out.println("2");
+                break;
+            case 3:
+                System.out.println("3");
+                break;
+            default:
+                System.out.println("default");
+                break;
+        }
 
 
 For 循环会先完成命令再进行调整
