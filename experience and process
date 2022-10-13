@@ -40,3 +40,20 @@ default 与 case 无顺序要求
 
 For 循环会先完成命令再进行调整
 While循环会先按流程走下去，按先后顺序
+
+10-13
+int arr[]={}是数组“”是字符
+字符串末尾必有/0
+strlen求字符串长度，不含/0，且需要头文件#include<string.h>
+sleep函数是停顿n毫秒，并且需要头文件windows.h
+system函数用来执行系统命令“cls”为清空屏幕，并且需要头文件stdlib.h
+strcmp函数用来比较两个字符串相等，例strcmp(password,"123456")
+
+char定义字符
+int 定义整形
+static 修饰静态变量
+ 
+scanf ("")引号内什么内容，键盘就要输入什么内容
+例：("%d,%d,%d,&a,&b,&c\n") 在输入的时候   , 和空格不能省略，而且会区分中英文
+ &&表示并且
+||表示或者
