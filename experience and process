@@ -17,6 +17,7 @@ int main()
 
 一：
 Switch语句  整形语句  不能用float等
+switch 语句中，必须有break或return 的结束语，不然会无限循环
 case 同理，整形常量（不是变量）表达式
 default  默认
 default 与 case 无顺序要求
